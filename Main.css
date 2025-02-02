@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: content-box;
+
+}
+
+html {
+    font-size: 22px;
+    border: 1px solid white;
+    word-spacing: normal;
+
+}
+
+body {
+    background-color: #000;
+    color: wheat;
+    font-family: Roboto;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:focus {
+    color: white;
+    outline: 2px solid white;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(234, 12, 145);
+}
+
+a:visited,
+a:focus {
+    color: rgb(78, 221, 22);
+}
+a:hover {
+    color: dodgerblue;
+}
+
+a:active {
+    color: gold;
+}
+
+h1 {
+    color: #7DF9FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 10px double #FFA500;
+    width: 35%;
+    padding: 0.5rem;
+    outline: 5px solid red;
+    outline-offset: -15px;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000;
+    box-shadow: 5px 5px 7px#DAA520;
+    background-color: rgb(59, 6, 6);
+    border-radius: 2rem;
+    max-width: 600px;
+
+
+
+}
+
+h2 {
+    color: #32CD32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: 2px ridge #00FFFF;
+    border-bottom: 2px ridge #00FFFF;
+    border-left: 2px dashed #00FFFF;
+    border-right: 10px dotted #00FFFF;
+    width: 40%;
+    background-color: #1f3333;
+    line-break: strict;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+
+
+}
+
+h3 {
+    color: #DAA520;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: 800;
+
+
+
+}
+
+p {
+    width: 40ch;
+    text-align: justify;
+    font-style: italic;
+    line-break: normal;
+
+}
+
+#items {
+    border: 1px solid rgb(190, 232, 4);
+    padding: 1.5em 2em 3em 4em;
+
+    width: 60%;
+    color: tomato;
+}
+
+caption {
+    color: yellow;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+th:nth-of-type(1) {
+    color: mediumspringgreen;
+}
+
+th:not(:nth-of-type(1)) {
+    color: rgb(26, 172, 216);
+}
+
+td {
+    color: #55d60b;
+    text-align: center;
+}
+
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    background-color: rgba(38, 13, 67, 0.866);
+
+
+}
+ul{
+    list-style-type: circle;
+    padding:1rem;
+    list-style-position: inside;
+    line-height: 1.5;
+    padding: 2rem;
+   
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol{
+   
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-bottom:2rem;
+    line-height: 2;
+    list-style-type: upper-roman;
+}
+ul li::marker{
+    color:aqua !important;
+}
+ol ::marker{
+    color:yellow;
+}
+
